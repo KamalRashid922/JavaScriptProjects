@@ -1,0 +1,34 @@
+main{
+	text-align: center;
+    margin-top: 15%;
+    line-height: 200%;
+}
+
+body{
+	background-color: #f0ffff;
+}
+
+#l1{
+	font-size: 200%;
+    font-style: italic;
+    color: #006400;
+    text-transform: capitalize;
+}
+#userInput{
+	border: groove;
+    height: 30px;
+}
+
+#l2{
+	font-size: 150%;
+    font-style: italic;
+    color: #006400;
+    text-transform: capitalize;
+}
+
+
+#computer{
+	/*width: 5%;*/
+    border: groove;
+    height: 25px;
+}

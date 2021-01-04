@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Guss a number</title>
+	<link rel="stylesheet" href="style.css"></style>
+	<script src="script.js"></script>
+	<link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+	<main>
+		<label id="l1">Guess a number from 0 to 9</label><br>
+		<input type="number" id="userInput" min="0" max="9" required="true"><br>
+
+		<label id="l2">Computer answer</label><br>
+		<input type="textfield" id="computer" readonly="true"><br>
+
+		<input type="submit" value="OK!" id="play"  onclick="check()">
+		<input type="button" value="reset" id="replay" onclick="reset()"><br>
+
+		<p id="out"></p>
+	</main>
+</body>
+</html>
